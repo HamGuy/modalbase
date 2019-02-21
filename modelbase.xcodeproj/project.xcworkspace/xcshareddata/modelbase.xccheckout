@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>62C3FC20-D607-4344-A6CF-B4AA10DB6C10</string>
+	<key>IDESourceControlProjectName</key>
+	<string>modelbase</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>53AF63A8-8505-402A-BB87-ACE28EC17D5B</key>
+		<string>https://bitbucket.org/HamGuy/modelbase.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>modelbase.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>53AF63A8-8505-402A-BB87-ACE28EC17D5B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/HamGuy/modelbase.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>53AF63A8-8505-402A-BB87-ACE28EC17D5B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>53AF63A8-8505-402A-BB87-ACE28EC17D5B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>modelbase</string>
+		</dict>
+	</array>
+</dict>
+</plist>

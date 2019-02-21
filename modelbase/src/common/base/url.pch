@@ -1,0 +1,20 @@
+//
+//  url.pch
+//  modelbase
+//
+//  Created by HamGuy on 5/26/14.
+//  Copyright (c) 2014 HamGuy. All rights reserved.
+//
+
+#ifndef modelbase_url_pch
+#define modelbase_url_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+
+#define kBaseUrl @"http://modelbase.sinaapp.com/interface/connect.php"
+#define kBannerUrl @"http://modelbase-modelbase.stor.sinaapp.com/banner/"
+#define kCoverUrl @"http://modelbase-modelbase.stor.sinaapp.com/cover/"
+#define kBaseImageUrl @"http://modelbase-modelbase.stor.sinaapp.com/"

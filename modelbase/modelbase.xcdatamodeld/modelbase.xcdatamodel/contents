@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Ablum" representedClassName="Ablum" syncable="YES">
+        <attribute name="abdescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ablumid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="datatype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="download" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="edit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="error" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="good" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="goodme" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quick" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Cover" representedClassName="Cover" syncable="YES">
+        <attribute name="ablumid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="datatype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="userinfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserInfo" inverseName="images" inverseEntity="UserInfo" syncable="YES"/>
+    </entity>
+    <entity name="HGMessage" representedClassName="HGMessage" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Note" representedClassName="Note" syncable="YES">
+        <attribute name="ablumid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="noteinfo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES">
+        <attribute name="error" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="head" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="role" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userdescrption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Cover" inverseName="userinfo" inverseEntity="Cover" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Ablum" positionX="34" positionY="-270" width="128" height="225"/>
+        <element name="Cover" positionX="133" positionY="-81" width="128" height="118"/>
+        <element name="HGMessage" positionX="-279" positionY="-99" width="128" height="105"/>
+        <element name="Note" positionX="-72" positionY="-126" width="128" height="88"/>
+        <element name="UserInfo" positionX="-81" positionY="-99" width="128" height="135"/>
+    </elements>
+</model>

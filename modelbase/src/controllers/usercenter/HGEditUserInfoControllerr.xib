@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HGEditUserInfoControllerr">
+            <connections>
+                <outlet property="applyEditorBtn" destination="RfF-ta-eFU" id="gRk-2S-oIb"/>
+                <outlet property="applyModelBtn" destination="OvO-HZ-e89" id="tHb-b2-nar"/>
+                <outlet property="applyVipBtn" destination="28s-Zg-CWW" id="1yx-E5-AX1"/>
+                <outlet property="avataView" destination="khM-8R-mcg" id="PtD-SX-5th"/>
+                <outlet property="choosePicContainerView" destination="sjU-CH-F6X" id="Irp-ej-idd"/>
+                <outlet property="descriptionTextView" destination="Qk7-Md-cop" id="UvZ-5X-sUu"/>
+                <outlet property="editContainerView" destination="ZI4-yr-ZUM" id="R3d-ah-AlG"/>
+                <outlet property="okBtn" destination="dvf-CF-tXF" id="3xX-X0-doG"/>
+                <outlet property="scrollView" destination="67r-JZ-dz7" id="n5n-Us-8Cd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="67r-JZ-dz7">
+                    <rect key="frame" x="-5" y="-5" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="ZI4-yr-ZUM">
+                            <rect key="frame" x="20" y="20" width="290" height="200"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" id="hSW-0z-4eX" customClass="HGOnePixelHeightView">
+                                    <rect key="frame" x="0.0" y="45" width="290" height="1"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" red="0.81960784313725488" green="0.81960784313725488" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更改头像" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cfN-H2-1yb">
+                                    <rect key="frame" x="12" y="0.0" width="64" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.37647058820000001" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconDefaultAvataSmall" id="khM-8R-mcg">
+                                    <rect key="frame" x="216" y="7" width="36" height="36"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="个人描述" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BTN-wr-vue">
+                                    <rect key="frame" x="12" y="54" width="64" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.37647058823529411" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Qk7-Md-cop" customClass="GCPlaceholderTextView">
+                                    <rect key="frame" x="12" y="92" width="266" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="BtnNextPress" id="2cN-ZI-qz7">
+                                    <rect key="frame" x="252" y="10" width="30" height="30"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Z9G-Qh-Zzt">
+                                    <rect key="frame" x="84" y="7" width="186" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="shouldChangeAvata:" destination="-1" eventType="touchUpInside" id="yKo-ZZ-p0T"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dvf-CF-tXF">
+                            <rect key="frame" x="28" y="231" width="274" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="确认修改" backgroundImage="BtnRegRed">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="BtnRegRedPress"/>
+                            <connections>
+                                <action selector="confirmEdit:" destination="-1" eventType="touchUpInside" id="FzC-P6-wgv"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OvO-HZ-e89">
+                            <rect key="frame" x="28" y="293" width="274" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="认证模特" backgroundImage="BtnRegWhite">
+                                <color key="titleColor" red="0.37647058820000001" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="BtnRegWhitePress"/>
+                            <connections>
+                                <action selector="applyModel:" destination="-1" eventType="touchUpInside" id="7xf-Bh-Ul9"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RfF-ta-eFU">
+                            <rect key="frame" x="28" y="353" width="274" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="认证经纪人" backgroundImage="BtnRegWhite">
+                                <color key="titleColor" red="0.37647058820000001" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="BtnRegRedPress"/>
+                            <connections>
+                                <action selector="applyAgent:" destination="-1" eventType="touchUpInside" id="JvS-qn-S8n"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="28s-Zg-CWW">
+                            <rect key="frame" x="28" y="416" width="274" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="认证 VIP" backgroundImage="BtnRegWhite">
+                                <color key="titleColor" red="0.37647058820000001" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="BtnRegWhitePress">
+                                <color key="titleColor" red="0.37647058820000001" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="applyVIP:" destination="-1" eventType="touchUpInside" id="SgN-HT-6qo"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+        <view contentMode="scaleToFill" id="sjU-CH-F6X">
+            <rect key="frame" x="0.0" y="0.0" width="295" height="234"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="编辑头像" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Csb-wQ-cVi">
+                    <rect key="frame" x="105" y="13" width="85" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.88235294119999996" green="0.08235294118" blue="0.054901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" id="mAZ-UB-dDF">
+                    <rect key="frame" x="0.0" y="45" width="295" height="2"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.88235294119999996" green="0.08235294118" blue="0.054901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zfi-nj-ZHl">
+                    <rect key="frame" x="10" y="77" width="274" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="读取相册" backgroundImage="BtnRegRed">
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="BtnRegRedPress"/>
+                    <connections>
+                        <action selector="chooseFromLibrary:" destination="-1" eventType="touchUpInside" id="Wvm-Dd-uYW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="D2Y-h7-12N">
+                    <rect key="frame" x="10" y="132" width="275" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="拍照" backgroundImage="BtnRegWhite">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="BtnRegWhitePress"/>
+                    <connections>
+                        <action selector="takePhoto:" destination="-1" eventType="touchUpInside" id="Fck-44-UoZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="m0D-W4-ubw">
+                    <rect key="frame" x="168" y="186" width="117" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="取消" backgroundImage="BtneditCancel">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="BtneditCancelPress"/>
+                    <connections>
+                        <action selector="editCanceled:" destination="-1" eventType="touchUpInside" id="ak0-0H-ULZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qii-f1-z0m">
+                    <rect key="frame" x="10" y="186" width="142" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="确定" backgroundImage="BtnEditOkbig">
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="BtnEditOkbigPress"/>
+                    <connections>
+                        <action selector="editDone:" destination="-1" eventType="touchUpInside" id="kaY-2g-1b0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BtnEditOkbig" width="142" height="38"/>
+        <image name="BtnEditOkbigPress" width="142" height="38"/>
+        <image name="BtnNextPress" width="30" height="30"/>
+        <image name="BtnRegRed" width="274" height="38"/>
+        <image name="BtnRegRedPress" width="274" height="38"/>
+        <image name="BtnRegWhite" width="275" height="39"/>
+        <image name="BtnRegWhitePress" width="275" height="39"/>
+        <image name="BtneditCancel" width="117" height="38"/>
+        <image name="BtneditCancelPress" width="117" height="38"/>
+        <image name="IconDefaultAvataSmall" width="35" height="36"/>
+    </resources>
+</document>

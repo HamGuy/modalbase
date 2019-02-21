@@ -1,0 +1,254 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest
+    - ASIHTTPRequest/CloudFiles
+    - ASIHTTPRequest/Core
+    - ASIHTTPRequest/S3
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - cdebug (0.1.1)
+  - EGOCache (2.1)
+  - FoundationExtension (0.55):
+    - cdebug (~> 0.1)
+    - FoundationExtension/AddressBookExtension
+    - FoundationExtension/CocoaExtension
+    - FoundationExtension/FoundationExtension
+    - FoundationExtension/UIKitExtension
+  - FoundationExtension/AddressBookExtension (0.55):
+    - cdebug (~> 0.1)
+    - FoundationExtension/FoundationExtension
+  - FoundationExtension/FoundationExtension (0.55):
+    - cdebug (~> 0.1)
+  - FoundationExtension/UIKitExtension (0.55):
+    - cdebug (~> 0.1)
+    - FoundationExtension/FoundationExtension
+  - FSImageViewer (2.6.1):
+    - AFNetworking (~> 2.4)
+    - EGOCache (~> 2.1)
+  - GIKPopoverBackgroundView/Core (0.0.1)
+  - JDStatusBarNotification (1.4.8)
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core
+  - MagicalRecord/Core (2.2)
+  - MKNetworkKit (0.87):
+    - Reachability (~> 3.1.0)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core
+    - MMDrawerController/MMDrawerBarButtonItem
+    - MMDrawerController/MMDrawerVisualStates
+    - MMDrawerController/Subclass
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - Reachability (3.1.1)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+  - SevenSwitch (1.3.0)
+  - SVPullToRefresh (0.4.1)
+  - TestFlightSDK (3.0.2)
+  - UI7Kit (0.9.19):
+    - UI7Kit/All
+  - UI7Kit/All (0.9.19):
+    - UI7Kit/UI7ActionSheet
+    - UI7Kit/UI7ActivityViewController
+    - UI7Kit/UI7AlertView
+    - UI7Kit/UI7BarButtonItem
+    - UI7Kit/UI7Button
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7NavigationBar
+    - UI7Kit/UI7NavigationController
+    - UI7Kit/UI7PickerView
+    - UI7Kit/UI7PopoverController
+    - UI7Kit/UI7ProgressView
+    - UI7Kit/UI7SearchBar
+    - UI7Kit/UI7SegmentedControl
+    - UI7Kit/UI7Slider
+    - UI7Kit/UI7Stepper
+    - UI7Kit/UI7Switch/SevenSwitch
+    - UI7Kit/UI7TabBar
+    - UI7Kit/UI7TabBarController
+    - UI7Kit/UI7TabBarItem
+    - UI7Kit/UI7TableView
+    - UI7Kit/UI7TableViewCell
+    - UI7Kit/UI7TextField
+    - UI7Kit/UI7Toolbar
+    - UI7Kit/UI7View
+    - UI7Kit/UI7ViewController
+    - UI7Kit/UI7Window
+  - UI7Kit/Core (0.9.19):
+    - cdebug
+    - UI7Kit/UI7Color
+  - UI7Kit/UI7ActionSheet (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+  - UI7Kit/UI7ActivityViewController (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Font
+  - UI7Kit/UI7AlertView (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Button
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+  - UI7Kit/UI7BarButtonItem (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Font
+    - UIKitResources/UIButtonBar
+  - UI7Kit/UI7Button (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7BarButtonItem
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7View
+  - UI7Kit/UI7Color (0.9.19):
+    - FoundationExtension/UIKitExtension (~> 0.48)
+    - UIKitResources/UIAccessoryButton
+  - UI7Kit/UI7Font (0.9.19):
+    - UI7Kit/Core
+  - UI7Kit/UI7NavigationBar (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7BarButtonItem
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+  - UI7Kit/UI7NavigationController (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7NavigationBar
+    - UI7Kit/UI7Toolbar
+  - UI7Kit/UI7PickerView (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7TableView
+    - UI7Kit/UI7TableViewCell
+    - UI7Kit/UI7View
+  - UI7Kit/UI7PopoverController (0.9.19):
+    - GIKPopoverBackgroundView/Core
+    - UI7Kit/Core
+  - UI7Kit/UI7ProgressView (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7View
+  - UI7Kit/UI7SearchBar (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+  - UI7Kit/UI7SegmentedControl (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7View
+  - UI7Kit/UI7Slider (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7View
+  - UI7Kit/UI7Stepper (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7View
+  - UI7Kit/UI7Switch/SevenSwitch (0.9.19):
+    - SevenSwitch (~> 1.3.0)
+    - UI7Kit/Core
+  - UI7Kit/UI7TabBar (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7View
+  - UI7Kit/UI7TabBarController (0.9.19):
+    - UI7Kit/Core
+  - UI7Kit/UI7TabBarItem (0.9.19):
+    - UI7Kit/Core
+    - UIKitResources/UITabBar
+  - UI7Kit/UI7TableView (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7View
+  - UI7Kit/UI7TableViewCell (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+    - UI7Kit/UI7Font
+    - UI7Kit/UI7View
+  - UI7Kit/UI7TextField (0.9.19):
+    - UI7Kit/Core
+  - UI7Kit/UI7Toolbar (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7Color
+  - UI7Kit/UI7View (0.9.19):
+    - UI7Kit/Core
+  - UI7Kit/UI7ViewController (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7BarButtonItem
+    - UI7Kit/UI7NavigationBar
+  - UI7Kit/UI7Window (0.9.19):
+    - UI7Kit/Core
+    - UI7Kit/UI7View
+  - UIKitResources/UIAccessoryButton (7.0)
+  - UIKitResources/UIButtonBar (7.0)
+  - UIKitResources/UITabBar (7.0)
+  - ZipArchive (1.3.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ASIHTTPRequest
+  - FoundationExtension
+  - FSImageViewer (~> 2.4)
+  - JDStatusBarNotification
+  - MagicalRecord
+  - MKNetworkKit
+  - MMDrawerController (~> 0.5.3)
+  - SDWebImage
+  - SVPullToRefresh
+  - TestFlightSDK
+  - UI7Kit
+  - ZipArchive
+
+SPEC CHECKSUMS:
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  ASIHTTPRequest: 2c8335b49410c0e2ad42829c438e74d454b77590
+  cdebug: 0404c00c53512b97358e13340b59dd465e4389ac
+  EGOCache: bf414333c425fe47f5182351d1dd47ebf72d8352
+  FoundationExtension: fe052768833ab70136a8bf09f48b42a3889235ec
+  FSImageViewer: 682a0be3c3b8c72a58e64de4c4db72830de41140
+  GIKPopoverBackgroundView: 459aef9b0a17d10b831b1714f2d686e72bbcc63c
+  JDStatusBarNotification: c68611370dedc0ef865fb0fc1768dfbaf8fd961f
+  MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
+  MKNetworkKit: 83e6296a8d42e98a71880424a889773654846d74
+  MMDrawerController: c3ab7a318ddc7e2bcd133139c3161af08c6e1197
+  Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  SevenSwitch: 70af67d75bc2e477d45a984cf1f3123564b04eee
+  SVPullToRefresh: d5161ebc833a38b465364412e5e307ca80bbb190
+  TestFlightSDK: 0c24c533748d0d84bfe7a3cb6036fa79124d84ee
+  UI7Kit: 82a9ed053e7c69572d9a489adc0c6147b9ccd8c1
+  UIKitResources: 834daec56f3546164cef79034ed9efc3bf6d2512
+  ZipArchive: acd54f7131c2d2f45dc3f41c4f854501f222269f
+
+COCOAPODS: 0.34.1

@@ -1,0 +1,91 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <CoreGraphics/CoreGraphics.h>
+    #import <Foundation/Foundation.h>
+    #import <FoundationExtension/FoundationExtension.h>
+    #import <UIKitExtension/UIKitExtension.h>
+    #import "UIView+Addition.h"
+    #import <MMDrawerController/UIViewController+MMDrawerController.h>
+    #import "UIViewController+NavigationBarButton.h"
+    #import "HGAppDelegate.h"
+    #import "UIDevice+Resolutions.h"
+    #import "HGNavigationController.h"
+    #import "url.pch"
+    #import "UIViewController+Network.h"
+#endif
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) {NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
+#   define ELog(err) {if(err) DLog(@"%@", err)}
+#else
+#   define DLog(...)
+#   define ELog(err)
+#   define NSLog(...) {}
+#endif
+
+#define kShoudResetSelectIndexNotification @"resetIndex"
+#define kShouldRefreshUserNotification @"userrefresh"
+
+
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#define IS_IOS6()    ([[[UIDevice currentDevice] systemVersion] floatValue]<7.0)
+
+#define is_iPhone5 ([UIDevice currentResolution] == UIDevice_iPhoneTallerHiRes)
+
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a/255.0]
+
+#define kCommonHoghtedColor RGBCOLOR(230, 27, 10)
+#define kViewBackgroundColor RGBCOLOR(246,246,246)
+
+#define AppDelegate (HGAppDelegate *)([UIApplication sharedApplication].delegate)
+
+
+#define kWeiBoKey @"3515846864"
+#define kWeiBoSecretKey @"62fbcfb9d5830f49eab4ff0c5cbd3a5d"
+#define kRediretUrl @"http://www.butterfly-dream.com"
+#define kWeChatKey @"wxddb69e3f331b474d"
+
+#define kRegisterSuccessNotification @"registerSuccess"
+#define kRefresAnnouceNotification @"refresh"
+#define kRefreshMyListNotification @"refreshMyList"
+
+#define kDownloadedDirectoyName @"DownloadedAblums"
+#define KDownLoadCoverDirectoryName @"DownloadedCovers"
+#define kFileToUplaodDirectoryName @"UploadFiles"
+#define kLocalCoverDirectoryName @"LocalCovers"
+#define KAdvacenedSearch @"advancedSearch"
+#define kFileToUploadThumDirectry @"UploadfileThum"
+
+#define kUserTypeUser @"user"
+#define kUserTypeModel @"model"
+#define kUserTypeEditor @"editor"
+#define kUserTypeVIP @"vip"
+
+#ifndef SINGLETON_GCD
+#define SINGLETON_GCD(classname)                        \
+\
++ (classname *)sharedInstance {                      \
+\
+static dispatch_once_t pred;                        \
+__strong static classname * shared##classname = nil;\
+dispatch_once( &pred, ^{                            \
+shared##classname = [[self alloc] init]; });    \
+return shared##classname;                           \
+}
+#endif
